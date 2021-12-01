@@ -1,0 +1,108 @@
+html,
+body {
+	background-color: #c7f3ff;
+}
+
+.global-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #05bbbb;
+}
+
+.login-form {
+	width: 380px;
+	height: 550px;
+	padding: 20px;
+	margin-top: 80px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="text"] {
+	background-color: white;
+	color: black;
+	border: 2px solid #05bbbb;
+	border-radius: 50px;
+	margin-bottom: 25px;
+}
+
+/* input[type="email"]:focus,
+input[type="password"]:focus {
+	outline: none;
+	border: none;
+} */
+
+.card-title {
+	font-weight: 700;
+	padding-top: 30px;
+}
+
+.btn.btn-primary {
+	border: 2px solid #05bbbb;
+	background: #c7f3ff;
+	color: #000;
+	font-size: medium;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.btn.btn-primary :active,
+.btn.btn-primary :hover,
+.btn.btn-primary :focus {
+	background: #05bbbb !important;
+}
+
+.btn.btn-danger {
+	border: 2px solid #992255;
+	background: #ffb7c9;
+	color: #000;
+	font-size: medium;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.btn.btn-danger :active,
+.btn.btn-danger :hover,
+.btn.btn-danger :focus {
+	background: #f98ca2 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+	background-color: #05bbbb !important;
+}
+
+.user-container {
+	margin: 50px;
+}
+.card-user {
+	border-radius: 20px;
+	background-color: white;
+	margin-top: 5px;
+	margin: 5px;
+}
+
+.card-body {
+	color: #05bbbb;
+}
+
+.card-text {
+	margin: 20px;
+}
+
+.card-image {
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	position: relative;
+	margin-top: 20px;
+	margin-left: 20px;
+}
